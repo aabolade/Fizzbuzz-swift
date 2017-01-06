@@ -33,5 +33,17 @@ class BrainsTests: XCTestCase {
         let result = brain.isDivisibleByThree(number: 1)
         XCTAssertEqual(result, false)
     }
+    
+    func testIsDivisibleByFive() {
+        let brain = Brain()
+        let result = brain.isDvisibleByFive(number: 5)
+        XCTAssertEqual(result,true)
+    }
+    
+    func testsIsNotDivisibileByFive() {
+        let brain = Brain()
+        let result = brain.isDvisibleByFive(number: 1)
+        XCTAssertEqual(result, false)
+    }
  
 }

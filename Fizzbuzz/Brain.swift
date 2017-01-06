@@ -18,4 +18,12 @@ class Brain: NSObject {
         }
     }
     
+    func isDvisibleByFive(number: Int) -> Bool {
+        if (number%5 == 0) {
+            return true
+        } else {
+            return false
+        }
+    }
+    
 }
