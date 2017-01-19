@@ -26,5 +26,9 @@ class Brain: NSObject {
         return isDivisibleBy(divisor: 15, number: number)
     }
     
+    func check(number: Int) -> String {
+        return "Fizz"
+    }
+    
     
 }
