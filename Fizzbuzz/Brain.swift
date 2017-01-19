@@ -10,20 +10,21 @@ import Foundation
 
 class Brain: NSObject {
     
+    func isDivisibleBy(divisor: Int, number: Int) -> Bool {
+        return number % divisor == 0
+    }
+    
     func isDivisibleByThree(number: Int) -> Bool {
-        if (number%3 == 0) {
-            return true
-        } else {
-            return false
-        }
+            return isDivisibleBy(divisor: 3, number: number)
     }
     
     func isDvisibleByFive(number: Int) -> Bool {
-        if (number%5 == 0) {
-            return true
-        } else {
-            return false
-        }
+        return isDivisibleBy(divisor: 5, number:number)
     }
+    
+    func isDivisibleByFifteen(number: Int) -> Bool {
+        return isDivisibleBy(divisor: 15, number: number)
+    }
+    
     
 }

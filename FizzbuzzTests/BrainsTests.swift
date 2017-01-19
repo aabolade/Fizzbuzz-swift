@@ -11,6 +11,8 @@ import XCTest
 
 class BrainsTests: XCTestCase {
     
+    let brain = Brain()
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -23,26 +25,32 @@ class BrainsTests: XCTestCase {
     
     
     func testIsDivisibleByThree() {
-        let brain = Brain()
         let result = brain.isDivisibleByThree(number: 3)
         XCTAssertEqual(result,true)
     }
     
     func testIsNotDivisibleByThree() {
-        let brain = Brain()
         let result = brain.isDivisibleByThree(number: 1)
         XCTAssertEqual(result, false)
     }
     
     func testIsDivisibleByFive() {
-        let brain = Brain()
         let result = brain.isDvisibleByFive(number: 5)
         XCTAssertEqual(result,true)
     }
     
     func testsIsNotDivisibileByFive() {
-        let brain = Brain()
         let result = brain.isDvisibleByFive(number: 1)
+        XCTAssertEqual(result, false)
+    }
+    
+    func testIsDivisibleByFifteen() {
+        let result = brain.isDivisibleByFifteen(number: 15)
+        XCTAssertEqual(result, true)
+    }
+    
+    func testIsNotDivisibleByFifteen() {
+        let result = brain.isDivisibleByFifteen(number:1)
         XCTAssertEqual(result, false)
     }
  
