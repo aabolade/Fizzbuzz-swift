@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080791C51E3CD26300821374 /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080791C41E3CD26300821374 /* ViewControllerUnitTests.swift */; };
 		083AAF301E313B2F006CC22A /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083AAF2F1E313B2F006CC22A /* GameTests.swift */; };
 		083AAF321E313BB0006CC22A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083AAF311E313BB0006CC22A /* Game.swift */; };
 		083AAF331E3141B2006CC22A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083AAF311E313BB0006CC22A /* Game.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080791C41E3CD26300821374 /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
 		083AAF2F1E313B2F006CC22A /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameTests.swift; path = ../Fizzbuzz/GameTests.swift; sourceTree = "<group>"; };
 		083AAF311E313BB0006CC22A /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = Fizzbuzz/Game.swift; sourceTree = SOURCE_ROOT; };
 		086B8A251E1D02CA00911D1F /* Fizzbuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fizzbuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 				086B8A3F1E1D02CA00911D1F /* Info.plist */,
 				083AAF2F1E313B2F006CC22A /* GameTests.swift */,
 				086B8A561E1D037400911D1F /* BrainsTests.swift */,
+				080791C41E3CD26300821374 /* ViewControllerUnitTests.swift */,
 			);
 			path = FizzbuzzTests;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				086B8A571E1D037400911D1F /* BrainsTests.swift in Sources */,
+				080791C51E3CD26300821374 /* ViewControllerUnitTests.swift in Sources */,
 				083AAF321E313BB0006CC22A /* Game.swift in Sources */,
 				083AAF341E3141DF006CC22A /* Brain.swift in Sources */,
 				083AAF301E313B2F006CC22A /* GameTests.swift in Sources */,
