@@ -46,10 +46,14 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeA-Op-H4e">
                                         <rect key="frame" x="0.0" y="0.0" width="140.66666666666666" height="141.66666666666669"/>
                                         <color key="backgroundColor" red="0.30588235289999999" green="0.85098039219999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="numberButton"/>
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="70"/>
                                         <state key="normal" title="0" backgroundImage="button_border">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qHh-a1-rjx"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u94-66-4hD">
                                         <rect key="frame" x="153.66666666666663" y="152.66666666666669" width="140.33333333333337" height="141.33333333333331"/>
@@ -108,6 +112,9 @@
                             <constraint firstItem="dFU-go-eZX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ldt-Jk-EYZ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberButton" destination="GeA-Op-H4e" id="Wj3-DO-P7I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
