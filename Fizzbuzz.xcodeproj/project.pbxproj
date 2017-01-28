@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		083AAF301E313B2F006CC22A /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083AAF2F1E313B2F006CC22A /* GameTests.swift */; };
 		083AAF321E313BB0006CC22A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083AAF311E313BB0006CC22A /* Game.swift */; };
+		083AAF331E3141B2006CC22A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083AAF311E313BB0006CC22A /* Game.swift */; };
+		083AAF341E3141DF006CC22A /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B8A581E1D040B00911D1F /* Brain.swift */; };
 		086B8A291E1D02CA00911D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B8A281E1D02CA00911D1F /* AppDelegate.swift */; };
 		086B8A2B1E1D02CA00911D1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086B8A2A1E1D02CA00911D1F /* ViewController.swift */; };
 		086B8A2E1E1D02CA00911D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086B8A2C1E1D02CA00911D1F /* Main.storyboard */; };
@@ -272,6 +274,7 @@
 				086B8A2B1E1D02CA00911D1F /* ViewController.swift in Sources */,
 				086B8A591E1D040B00911D1F /* Brain.swift in Sources */,
 				086B8A291E1D02CA00911D1F /* AppDelegate.swift in Sources */,
+				083AAF331E3141B2006CC22A /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +284,7 @@
 			files = (
 				086B8A571E1D037400911D1F /* BrainsTests.swift in Sources */,
 				083AAF321E313BB0006CC22A /* Game.swift in Sources */,
+				083AAF341E3141DF006CC22A /* Brain.swift in Sources */,
 				083AAF301E313B2F006CC22A /* GameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
