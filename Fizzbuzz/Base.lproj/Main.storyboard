@@ -58,7 +58,11 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u94-66-4hD">
                                         <rect key="frame" x="153.66666666666663" y="152.66666666666669" width="140.33333333333337" height="141.33333333333331"/>
                                         <color key="backgroundColor" red="0.30588235289999999" green="0.85098039219999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="FizzbuzzButton"/>
                                         <state key="normal" image="space" backgroundImage="button_border"/>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Flo-TI-Npq"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47l-5n-wVs">
                                         <rect key="frame" x="153.66666666666663" y="0.0" width="140.33333333333337" height="141.66666666666669"/>
@@ -121,7 +125,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buzzButton" destination="PdI-na-WxU" id="fyG-Rx-13P"/>
                         <outlet property="fizzButton" destination="47l-5n-wVs" id="NBg-Dm-BB2"/>
+                        <outlet property="fizzbuzzButton" destination="u94-66-4hD" id="FDp-oO-dyq"/>
                         <outlet property="numberButton" destination="GeA-Op-H4e" id="Wj3-DO-P7I"/>
                     </connections>
                 </viewController>
