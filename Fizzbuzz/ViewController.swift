@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    func play(move: String) {
+    func play(move: Move) {
         
         guard let unwrappedGame = game else {
             print("Game is nil!")
@@ -58,8 +58,11 @@ class ViewController: UIViewController {
             return
         }
         
-        let nextScore = unwrappedScore + 1
-        play(move: "\(nextScore)")
+        if sender == numberButton {
+           play(move: .Number)
+        } else {
+            play(move: .Fizz)
+        }
     }
     
     
