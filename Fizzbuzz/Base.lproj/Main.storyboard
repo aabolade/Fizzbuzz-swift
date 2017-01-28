@@ -72,7 +72,11 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PdI-na-WxU">
                                         <rect key="frame" x="0.0" y="152.66666666666669" width="140.66666666666666" height="141.33333333333331"/>
                                         <color key="backgroundColor" red="0.30588235289999999" green="0.85098039219999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="BuzzButton"/>
                                         <state key="normal" image="lightning" backgroundImage="button_border"/>
+                                        <connections>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bjJ-M1-Far"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.30588235289999999" green="0.85098039219999999" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
@@ -117,6 +121,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="fizzButton" destination="47l-5n-wVs" id="NBg-Dm-BB2"/>
                         <outlet property="numberButton" destination="GeA-Op-H4e" id="Wj3-DO-P7I"/>
                     </connections>
                 </viewController>
