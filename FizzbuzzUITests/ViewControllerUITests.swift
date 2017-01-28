@@ -39,4 +39,14 @@ class ViewControllerUITests: XCTestCase {
         
     }
     
+    func testTapNumberButtonTwiceMakesScore2() {
+        
+        let app = XCUIApplication()
+        let numberButton = app.buttons["numberButton"]
+        
+        numberButton.tap()
+        numberButton.tap()
+        let newScore = numberButton.label
+        XCTAssertEqual(newScore, "2")
+    }
 }
